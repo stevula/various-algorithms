@@ -21,6 +21,3 @@ def merge(left, right)
 
   sorted + left + right
 end
-
-require 'pry'
-binding.pry
