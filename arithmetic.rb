@@ -24,5 +24,13 @@ def multiply(num_1, num_2)
 end
 
 def divide(num_1, num_2)
+  quotient = 0
+
+  while num_1 > 0
+    num_1 -= num_2
+    quotient += 1
+  end
+
+  quotient
 end
 
